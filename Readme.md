@@ -8,9 +8,9 @@
 ## 🎥 Demo & Tutorial
 
 - **Project Demo (YouTube)**: _coming soon_  
-  👉 Replace this with your real link once uploaded:
+  👉 
 
-`[https://youtu.be/XXXXXXXXXXX](https://www.youtube.com/watch?v=Pi3xI19eqHs)`
+`https://www.youtube.com/watch?v=Pi3xI19eqHs`
 
 - The demo will walk through:
   - How the engine fetches data (NSE + MT5 + Yahoo Finance)
