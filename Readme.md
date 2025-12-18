@@ -1,4 +1,4 @@
-# POST-MARKET Gold ETF Fair-Value Engine  
+# POST-MARKET Gold ETF Fair-Value Engine  [FINANCIAL MODELLING]
 ### ANSCom Terminal – Real-Time Synthetic Price for GOLDIETF
 
 > A live terminal that approximates the **ICICI Prudential Gold ETF (GOLDIETF)** price **after NSE market hours**, using XAUUSD and USDINR in real-time.
