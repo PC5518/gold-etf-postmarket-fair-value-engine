@@ -4,7 +4,7 @@
 # ============================================
 
 import time
-import statistics/
+import statistics
 from datetime import datetime, timedelta, timezone
 import collections
 import warnings
@@ -522,3 +522,4 @@ def run_terminal(gold_symbol="XAUUSD"):
 
 if __name__ == "__main__":
     run_terminal("XAUUSD")
+
