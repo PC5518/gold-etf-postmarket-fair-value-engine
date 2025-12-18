@@ -2,7 +2,7 @@
 #  ANSCom Terminal v4.4 - Windows Fix
 #  Fixes: Unicode '₹' Crash, ZeroDivisionError
 # ============================================
-
+# This is for the TATA  company's gold ETF 
 import time
 import statistics
 from datetime import datetime, timedelta, timezone
@@ -522,4 +522,5 @@ def run_terminal(gold_symbol="XAUUSD"):
         plt.close('all')
 
 if __name__ == "__main__":
+
     run_terminal("XAUUSD")
