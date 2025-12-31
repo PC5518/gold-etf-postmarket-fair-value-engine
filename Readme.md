@@ -81,7 +81,14 @@ Each diagram has a direct mapping to the Python modules and functions.
 <img width="1557" height="845" alt="image" src="https://github.com/user-attachments/assets/93938a91-de08-4a7d-8847-1c2ea020d8bb" />
 
 FINAL OUTPUT :<img width="1919" height="938" alt="image" src="https://github.com/user-attachments/assets/0e4e96bc-4792-4895-9f3d-5fac7253af48" />
+# Clone the repository
+git clone https://github.com/PC5518/gold-etf-postmarket-fair-value-engine.git
 
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the engine (Ensure MT5 is open)
+python src/run_terminal.py
 ---
 
 ### 1. Pre-Data Loading Engine (Reference Snapshot)
