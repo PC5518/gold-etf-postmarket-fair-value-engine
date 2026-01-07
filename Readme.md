@@ -48,15 +48,11 @@ This project builds a **real-time proxy fair-value engine** that answers exactly
 ## 🧮 Core Quant Model
 
 The synthetic ETF level is approximated by:
-
-\[
-\text{ETF}_\text{live} =
-\text{ETF}_\text{close}
-\times
-\frac{\text{XAUUSD}_\text{live}}{\text{XAUUSD}_\text{ref(15:30 IST)}}
-\times
-\frac{\text{USDINR}_\text{live}}{\text{USDINR}_\text{ref(15:30 IST)}}
-\]
+$$
+ETF_{live} = ETF_{close}
+\times \frac{XAUUSD_{live}}{XAUUSD_{ref(15:30)}}
+\times \frac{USDINR_{live}}{USDINR_{ref(15:30)}}
+$$
 
 Where:
 
