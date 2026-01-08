@@ -1,6 +1,6 @@
 # AnsCom Quantitative Suite-> POST-MARKET Gold ETF Fair-Value Engine  [FINANCIAL MODELLING] (A market-structure repair system)
 
-## 📄 Access the Research Paper: [https://zenodo.org/records/18185485](https://doi.org/10.5281/zenodo.18185485)
+## 📄 Access the Research Paper: https://doi.org/10.5281/zenodo.18185485
 ### AnsCom Terminal – Real-Time Synthetic Price for GOLDIETF
 > A live terminal that approximates the **ICICI Prudential Gold ETF (GOLDIETF)** price **after NSE market hours**, using XAUUSD and USDINR in real-time.
 
