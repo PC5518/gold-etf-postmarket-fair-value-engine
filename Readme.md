@@ -14,7 +14,7 @@ Overview (powered by Mermaid charts)
 
 
 
-## 🎥 Demo & Tutorial
+## Demo & Tutorial
 
 - **Project Demo (YouTube)**:[ _DEMO: ](https://www.youtube.com/watch?v=Pi3xI19eqHs)
 
@@ -28,7 +28,7 @@ Overview (powered by Mermaid charts)
 
 ---
 
-## 🧠 Problem Statement
+##  Problem Statement
 
 Indian Gold ETFs like **GOLDIETF** trade only during **NSE market hours**.  
 However, **gold (XAUUSD)** and **USDINR** move 24×7 in global markets.
@@ -46,7 +46,7 @@ This project builds a **real-time proxy fair-value engine** that answers exactly
 
 ---
 
-## 🧮 Core Quant Model
+##  Core Quant Model
 
 The synthetic ETF level is approximated by:
 SyntheticETF_live =
