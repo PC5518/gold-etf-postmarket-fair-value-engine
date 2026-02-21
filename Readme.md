@@ -49,10 +49,10 @@ This project builds a **real-time proxy fair-value engine** that answers exactly
 ##  Core Quant Model
 
 The synthetic ETF level is approximated by:
-SyntheticETF_live =
-    ETF_close
-    × (XAUUSD_live / XAUUSD_ref_15:30)
-    × (USDINR_live / USDINR_ref_15:30)
+
+$$
+\text{SyntheticETF\_live} = \text{ETF\_close} \times \left(\frac{\text{XAUUSD\_live}}{\text{XAUUSD\_ref\_{15:30}}}\right) \times \left(\frac{\text{USDINR\_live}}{\text{USDINR\_ref\_{15:30}}}\right)
+$$
 
 
 
@@ -70,7 +70,7 @@ The engine also tracks:
 - **Premium vs last close** in %  
 - **Volatility (bps)** from recent synthetic ETF ticks  
 
-All of this is displayed in the **ANSCom Terminal** interface.
+All of this is displayed in the **AnsCom Terminal** interface (My natively developed interface).
 
 ---
 
