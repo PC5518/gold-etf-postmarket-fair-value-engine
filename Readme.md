@@ -51,7 +51,7 @@ This project builds a **real-time proxy fair-value engine** that answers exactly
 The synthetic ETF level is approximated by:
 
 $$
-\text{SyntheticETF\_live} = \text{ETF\_close} \times \left(\frac{\text{XAUUSD\_live}}{\text{XAUUSD\_ref\_{15:30}}}\right) \times \left(\frac{\text{USDINR\_live}}{\text{USDINR\_ref\_{15:30}}}\right)
+\text{SyntheticETF\_live} = \text{ETF\_close} \times \frac{\text{XAUUSD\_live}}{\text{XAUUSD\_ref\_{15:30}}} \times \frac{\text{USDINR\_live}}{\text{USDINR\_ref\_{15:30}}}
 $$
 
 
