@@ -90,7 +90,7 @@ def get_etf_data_selenium(symbol="GOLDIETF"):
         driver.get(url)
         driver.minimize_window()
         time.sleep(5) 
-#                                    XPath my change so it's good to revise, check and update it
+#                                    XPath may change so it's good to revise, check and update it
         # Grab Data
         try:
             inav = driver.find_element(By.XPATH, '//*[@id="dashboard"]/div/div/div[2]/div/div[2]/div[5]/div/div/div[2]').text
@@ -521,6 +521,7 @@ def run_terminal(gold_symbol="XAUUSD"):
 
 if __name__ == "__main__":
     run_terminal("XAUUSD")
+
 
 
 
