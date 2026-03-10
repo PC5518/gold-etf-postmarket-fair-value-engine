@@ -28,7 +28,7 @@ import matplotlib.dates as mdates
 from matplotlib.collections import LineCollection
 
 # ==================================================
-#  THEME & STYLING CONFIGURATION
+#  THEME & STYLING CONFIGURATION..
 # ==================================================
 
 COLOR_BG = '#050505'       # Ultra Dark
@@ -521,6 +521,7 @@ def run_terminal(gold_symbol="XAUUSD"):
 
 if __name__ == "__main__":
     run_terminal("XAUUSD")
+
 
 
 
