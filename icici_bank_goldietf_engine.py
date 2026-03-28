@@ -9,7 +9,7 @@ import collections
 import warnings
 import re   # IMPORTED IT TO IGNORE NATIONAL STOCK EXCHANGE'S WEBSITE "As of DATE" refining
 import sys
-
+print("starting the terminal")
 # for Suppressing YFinance/Pandas FutureWarnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
