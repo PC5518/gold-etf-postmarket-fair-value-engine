@@ -1,6 +1,6 @@
 # #  ANSCom Terminal v4.4 - Windows Fix
 #  Fixes: Unicode '₹' Crash, ZeroDivisionError, "As of DATE" refining
-# 
+#  update is needed because NSE's webpage may have  changed
 # 
 import time
 import statistics
