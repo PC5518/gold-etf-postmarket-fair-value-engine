@@ -93,15 +93,15 @@ def get_etf_data_selenium(symbol="GOLDIETF"):
 #                                    XPath may change so it's good to revise, check and update it. Go the NSE's webpage and select the elements and paste here before execute the code.
         # Grab Data
         try:
-            inav = driver.find_element(By.XPATH, '//*[@id="dashboard"]/div/div/div[2]/div/div[2]/div[5]/div/div/div[2]').text
+            inav = driver.find_element(By.XPATH, '//*[@id="dashboard"]/div/div/div[2]/div/div[2]/div[5]/div/div/div[2]').text # xpath update is required
         except: inav = "0"
             
         try:
-            close_price = driver.find_element(By.XPATH, '//*[@id="midBody"]/div[2]/div[2]/div/div[1]/div/div[1]/span[2]').text
+            close_price = driver.find_element(By.XPATH, '//*[@id="midBody"]/div[2]/div[2]/div/div[1]/div/div[1]/span[2]').text # xpath update is required
         except: close_price = "0"
             
         try:
-            raw_date = driver.find_element(By.XPATH, '//*[@id="midBody"]/div[2]/div[1]/div[2]/div[2]/div').text
+            raw_date = driver.find_element(By.XPATH, '//*[@id="midBody"]/div[2]/div[1]/div[2]/div[2]/div').text  # xpath update is required
         except: 
             raw_date = datetime.now().strftime("%d-%b-%Y")
         
