@@ -1,4 +1,4 @@
-# AnsCom Quantitative Suite — POST-MARKET Gold ETF Fair-Value Engine
+# POST-MARKET Gold ETF Fair-Value Engine
 
 **An **opensource** market-structure repair system for ICICI Prudential Gold ETF (NSE: GOLDIETF)**
 Real-time synthetic NAV approximation during NSE off-hours using live XAUUSD and USDINR feeds.
