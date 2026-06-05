@@ -519,6 +519,7 @@ def run_terminal(gold_symbol="XAUUSD"):
     finally:
         mt5.shutdown()
         plt.close('all')
+        print("Gold ETF Fair value engine is closed for the indian markets and securities code NSE: GOLDIETF")
 
 if __name__ == "__main__":
     run_terminal("XAUUSD")
