@@ -13,7 +13,8 @@ import sys
 print("starting the terminal")
 # for Suppressing YFinance/Pandas FutureWarnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
-
+import numpy
+import pandas # optional but can be used to record the data and save it on your system/server. If the intention is to collect data and make datasets.
 # External Libraries
 import MetaTrader5 as mt5 # assuming meta trader 5 is installed and ready with atleast a demo trading account.
 from selenium import webdriver
