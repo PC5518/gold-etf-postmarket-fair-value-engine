@@ -15,7 +15,7 @@ print("starting the terminal")
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
 # External Libraries
-import MetaTrader5 as mt5
+import MetaTrader5 as mt5 # assuming meta trader 5 is installed and ready with atleast a demo trading account.
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import pandas as pd
