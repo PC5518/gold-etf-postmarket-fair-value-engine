@@ -458,7 +458,7 @@ def run_terminal(gold_symbol="XAUUSD"):
                 prem_vs_close = (synth_price / etf_close - 1) * 100 if etf_close != 0 else 0
                 vol_etf = calc_vol(prices_etf)
                 
-                y_pos = 0.95
+                y_pos = 0.96 # INCREASE IN WIDTH OF THE TERMINAL TO VALUE IT WITH line_h
                 x_lbl = 0.05
                 x_val = 0.60
                 line_h = 0.06
