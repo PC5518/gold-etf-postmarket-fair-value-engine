@@ -3,6 +3,7 @@
 #  update is needed because NSE's webpage may have  changed
 #  from code line number 96 and beyond,  the xpath are visible there's a high chance that the national stock exchange may have changed it's webpage structure that's why it's recommended to visit https://www.nseindia.com/get-quote/equity/GOLDIETF/ICICI-Prudential-Gold-ETF 
 # and finally update the xpaths by finding the inav, time , etc.. These are the part of predataloading engine which is mentioned in the md file.
+# CAUTION: parts of code are generated via Artificial Intelligence. If there's any issue or error i am free to answer and aprroach.
 import time
 import statistics
 from datetime import datetime, timedelta, timezone
