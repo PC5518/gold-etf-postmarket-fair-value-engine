@@ -1,5 +1,5 @@
 MetaTrader5
-language- python3
+language- python3.14
 selenium
 pandas
 numpy
